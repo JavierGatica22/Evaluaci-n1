@@ -1,0 +1,30 @@
+
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/login" color="light">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background">
+<div id="header" style="margin-top: -10px;">
+  <h1>Registro de Farmacias</h1>
+  <img src="assets/icon/logo1.png" >
+</div>
+
+<form id="form">
+  <app-input placeholder="R.U.N "></app-input>
+  <app-input placeholder="Nombre Usuario"></app-input>
+  <app-input type="password" placeholder="Contraseña">Contraseña</app-input>
+  <label for="1">Adjuntar documentación</label>
+  <app-input id="1" type="file" ></app-input>
+  <ion-button routerLink="/iniciado" expand="block" shape="round">Crear Cuenta</ion-button>
+</form>
+ 
+</ion-content>
